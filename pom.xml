@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zeroing.utils</groupId>
+    <artifactId>utils</artifactId>
+    <version>1.0.2-SNAPSHOT</version>
+
+    <properties>
+        <ali.fastjson.version>1.2.38</ali.fastjson.version>
+
+        <aliyun.oss.version>3.5.0</aliyun.oss.version>
+
+        <aliyun.javasdk.core.version>4.4.2</aliyun.javasdk.core.version>
+        <aliyun.javasdk.sts.version>3.0.1</aliyun.javasdk.sts.version>
+
+        <apache.commons.pool2.version>2.6.0</apache.commons.pool2.version>
+
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${ali.fastjson.version}</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>${aliyun.oss.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-sts</artifactId>
+            <version>${aliyun.javasdk.sts.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>${aliyun.javasdk.core.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>${apache.commons.pool2.version}</version>
+        </dependency>
+
+        <!--二维码生成包-->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
