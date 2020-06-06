@@ -4,8 +4,8 @@ package com.zeroing.utils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
+//import org.springframework.util.CollectionUtils;
+//import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -148,12 +148,12 @@ public class HttpUtil {
             con.setDoInput(true);
             con.setUseCaches(false);
             con.setRequestProperty("Charset", "UTF-8");
-            if (!CollectionUtils.isEmpty(map)) {
+            if (map !=null && map.size()>0) {
                 for (Map.Entry<String, String> entry : map.entrySet()) {
                     con.setRequestProperty(entry.getKey(), entry.getValue());
                 }
             }
-            if (("POST".equals(method) || "PUT".equals(method)) && !StringUtils.isEmpty(param)) {
+            if (("POST".equals(method) || "PUT".equals(method)) && !param.isEmpty()) {
                 osw = new OutputStreamWriter(con.getOutputStream(), "UTF-8");
                 osw.write(param);
                 osw.flush();

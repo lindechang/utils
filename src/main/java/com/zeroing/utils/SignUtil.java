@@ -17,8 +17,8 @@ public class SignUtil {
     /**
      * 小程序小程序推送测试TOKEN
      */
-    private static final String  TOKEN = "wxmsgpushtoken";
-    private static final String  MIYAO = "hbNwc3TVbkBVlEyVRwmcN28r5ATCxYS3eUu1f4cniFS";
+    private static final String  TOKEN = "";
+    private static final String  MIYAO = "";
 
 
     /**

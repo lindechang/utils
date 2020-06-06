@@ -20,8 +20,8 @@ import java.util.Map;
  */
 public class OcrUtil {
 
-    private static final String BaiduAccessKey = "RtkbOjnR2GXSHwNdWaBARGKO";
-    private static final String BaiduSecretKey = "zb6ocOee0rxjoaMDdUjEgppRIC2E8lqS";
+    private static final String BaiduAccessKey = "";
+    private static final String BaiduSecretKey = "";
 
     /**
      * 获取API访问token

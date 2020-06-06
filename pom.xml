@@ -6,7 +6,19 @@
 
     <groupId>com.zeroing.utils</groupId>
     <artifactId>utils</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <properties>
         <ali.fastjson.version>1.2.38</ali.fastjson.version>
