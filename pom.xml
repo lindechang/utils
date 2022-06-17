@@ -21,7 +21,7 @@
     </build>
 
     <properties>
-        <ali.fastjson.version>1.2.38</ali.fastjson.version>
+        <ali.fastjson.version>1.2.83</ali.fastjson.version>
 
         <aliyun.oss.version>3.5.0</aliyun.oss.version>
 
